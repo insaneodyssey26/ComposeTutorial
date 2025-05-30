@@ -25,4 +25,6 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun TutorialApp() {
     Text(text = "Jetpack Compose Tutorial")
+    Text(text = "Jetpack Compose is a modern toolkit for building native Android UI. Compose simplifies and accelerates UI development on Android with less code, powerful tools, and intuitive Kotlin APIs.")
+
 }
