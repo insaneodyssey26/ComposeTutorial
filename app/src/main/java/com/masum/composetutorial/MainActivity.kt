@@ -22,3 +22,7 @@ class MainActivity : ComponentActivity() {
     }
 }
 
+@Composable
+fun TutorialApp() {
+
+}
