@@ -26,7 +26,10 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 fun TutorialApp() {
-    Text(text = stringResource(R.string.jetpack_compose_tutorial_title))
-    Text(text = stringResource(R.string.jetpack_compose_tutorial_subtitle))
-    Text(text = stringResource(R.string.jetpack_compose_tutorial_body))
+    Article(
+    title =  stringResource(R.string.jetpack_compose_tutorial_title),
+    subheading =  stringResource(R.string.jetpack_compose_tutorial_subtitle),
+    content =  stringResource(R.string.jetpack_compose_tutorial_body)
+    )
 }
+
