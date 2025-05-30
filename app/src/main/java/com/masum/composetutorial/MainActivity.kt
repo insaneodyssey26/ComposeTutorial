@@ -59,13 +59,11 @@ fun Article(
         Text(
             text = subheading,
             modifier = Modifier.padding(16.dp),
-            fontSize = 24.sp
-        )
+=        )
         Text(
             text = content,
             modifier = Modifier.padding(16.dp),
-            fontSize = 24.sp
-        )
+=        )
     }
 }
 
