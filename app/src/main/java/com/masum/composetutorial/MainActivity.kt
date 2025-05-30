@@ -59,11 +59,11 @@ fun Article(
         Text(
             text = subheading,
             modifier = Modifier.padding(16.dp),
-=        )
+        )
         Text(
             text = content,
-            modifier = Modifier.padding(16.dp),
-=        )
+            modifier = Modifier.padding(16.dp)
+        )
     }
 }
 
