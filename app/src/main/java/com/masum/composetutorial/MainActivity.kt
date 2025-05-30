@@ -24,5 +24,5 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 fun TutorialApp() {
-
+    Text(text = "Jetpack Compose Tutorial")
 }
