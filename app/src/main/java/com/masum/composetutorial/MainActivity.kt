@@ -50,17 +50,19 @@ fun Article(
         Text(
             text = title,
             modifier = Modifier.padding(16.dp),
-            fontSize = 24.sp
+            fontSize = 24.sp,
         )
         Text(
             text = subheading,
             modifier = Modifier.padding(16.dp),
-            textAlign = TextAlign.Justify
+            textAlign = TextAlign.Justify,
+            lineHeight = 30.sp
         )
         Text(
             text = content,
             modifier = Modifier.padding(16.dp),
-            textAlign = TextAlign.Justify
+            textAlign = TextAlign.Justify,
+            lineHeight = 30.sp
         )
     }
 }
