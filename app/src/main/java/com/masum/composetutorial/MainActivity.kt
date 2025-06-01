@@ -43,7 +43,6 @@ fun Article(
     subheading: String,
     content: String,
     bgimage: Painter,
-    modifier: Modifier = Modifier,
 ) {
     Column (modifier = Modifier){
         Image(painter = bgimage,  contentDescription = null)
